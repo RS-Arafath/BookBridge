@@ -26,7 +26,6 @@ export default function NotFound() {
           The page you're looking for doesn't exist, may have been moved, or the
           URL might be incorrect.
         </p>
-
         {/* Buttons */}
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Button
