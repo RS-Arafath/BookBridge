@@ -45,7 +45,7 @@ const SignUpPage = () => {
 
       formRef.current?.reset();
       setTimeout(() => {
-        router.push('/');
+        router.push('/signin');
       }, 1000);
       console.log({ data, error });
     } catch (error) {

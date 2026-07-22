@@ -6,7 +6,8 @@ import { usePathname } from 'next/navigation';
 import { Avatar, Button } from '@heroui/react';
 import { Menu, X } from 'lucide-react';
 import { authClient } from '@/lib/auth-client';
-import ProfileModal from '@/components/shared/ProfileModal';
+import ProfileModal from './ProfileModal';
+
 
 const navLinks = [
   { href: '/', label: 'Home' },
@@ -14,9 +15,11 @@ const navLinks = [
   { href: '/profile', label: 'Profile' },
 ];
 
-export default function Navbar() {
+const Navbar = () => {
   const userData = authClient.useSession();
   const user = userData.data?.user;
+ 
+  //console.log('USER:', user); 
   const isPending = userData.isPending;
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
@@ -24,7 +27,6 @@ export default function Navbar() {
   return (
     <header className="border-b border-[#E2E8F0] bg-white">
       <nav className="max-w-7xl mx-auto h-16 px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-       
         <Link
           href="/"
           className="flex items-center justify-start md:justify-center "
@@ -167,4 +169,6 @@ export default function Navbar() {
       </div>
     </header>
   );
-}
+};
+
+export default Navbar;

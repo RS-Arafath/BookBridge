@@ -1,10 +1,10 @@
+
 'use client';
 import { Sparkles } from '@gravity-ui/icons';
 import { Avatar, Modal, Button, Card, Tooltip } from '@heroui/react';
 import { User as UserIcon, LogOut } from 'lucide-react';
 import { authClient } from '@/lib/auth-client';
-
-export default function ProfileModal({ user }) {
+const ProfileModal = ({user}) => {
   const handleSignOut = async () => {
     await authClient.signOut();
   };
@@ -94,4 +94,6 @@ export default function ProfileModal({ user }) {
       </Modal.Backdrop>
     </Modal>
   );
-}
+};
+
+export default ProfileModal;
