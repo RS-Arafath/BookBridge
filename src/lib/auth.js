@@ -1,34 +1,23 @@
+
+
 import { betterAuth } from 'better-auth';
 import { MongoClient } from 'mongodb';
 import { mongodbAdapter } from 'better-auth/adapters/mongodb';
 
-console.log('=== ENV CHECK ===');
-console.log('MONGODB_URI:', process.env.MONGODB_URI ? 'SET' : 'MISSING');
-console.log(
-  'BETTER_AUTH_URL:',
-  process.env.BETTER_AUTH_URL ? 'SET' : 'MISSING',
-);
-console.log(
-  'BETTER_AUTH_SECRET:',
-  process.env.BETTER_AUTH_SECRET ? 'SET' : 'MISSING',
-);
-console.log(
-  'GOOGLE_CLIENT_ID:',
-  process.env.GOOGLE_CLIENT_ID ? 'SET' : 'MISSING',
-);
-console.log(
-  'GOOGLE_CLIENT_SECRET:',
-  process.env.GOOGLE_CLIENT_SECRET ? 'SET' : 'MISSING',
-);
-console.log('==================');
-
-const client = new MongoClient(process.env.MONGODB_URI || '');
+const client = new MongoClient(process.env.MONGODB_URI);
 const db = client.db('bookBridge');
 
 export const auth = betterAuth({
   baseURL: process.env.BETTER_AUTH_URL,
-  trustedOrigins: [process.env.BETTER_AUTH_URL || ''],
+  trustedOrigins: [
+    process.env.BETTER_AUTH_URL,
+    process.env.NEXT_PUBLIC_APP_URL,
+    'http://localhost:3000',
+  ].filter(Boolean),
+  //...other options
   database: mongodbAdapter(db, {
+    // Optional: if you don't provide a client, database transactions won't be enabled.
+
     client,
   }),
   emailAndPassword: {
