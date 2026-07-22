@@ -65,7 +65,7 @@ const SignInPage = () => {
     <div className="flex min-h-screen items-center justify-center bg-gray-50 px-4 py-12">
       <div className="w-full max-w-sm md:max-w-md rounded-2xl border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
         <div className="mb-6 text-center">
-          <h1 className="text-2xl md:text-3xl font-bold text-gray-900">
+          <h1 className="text-2xl md:text-3xl font-bold  text-[#fd8f00] ">
             Sign in
           </h1>
           <p className="mt-1 text-sm md:text-base text-gray-500">
@@ -130,14 +130,14 @@ const SignInPage = () => {
             <Button
               type="reset"
               variant="secondary"
-              className="flex-1 rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50"
+              className="flex-1 rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50  hover:border-[#F7971D]"
             >
               Reset
             </Button>
             <Button
               type="submit"
               isDisabled={isLoading}
-              className="flex flex-1 items-center justify-center gap-1.5 rounded-lg bg-gray-900 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-gray-800 disabled:opacity-60 disabled:cursor-not-allowed"
+              className="flex flex-1 items-center justify-center gap-1.5 rounded-lg bg-[#F7971D] px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[#cc7606] disabled:opacity-60 disabled:cursor-not-allowed"
             >
               {isLoading ? (
                 <>
@@ -171,10 +171,10 @@ const SignInPage = () => {
             </Button>
           </div>
 
-          <div className=" w-full text-center my-4 sm:my-5">
+          <div className=" my-2 w-full text-center sm:my-3">
             <Link
               href="/signup"
-              className="inline-flex w-full items-center justify-center rounded-full border border-gray-300 px-4 py-2 text-sm font-semibold text-gray-900 transition-colors duration-200 hover:border-blue-400 hover:bg-gray-100 sm:text-base"
+              className="inline-flex w-full items-center justify-center rounded-full border border-gray-300 px-4 py-2 text-sm font-semibold text-gray-900 transition-colors duration-150 hover:border-[#F7971D]  sm:text-base"
             >
               Create new account
             </Link>

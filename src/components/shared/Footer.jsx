@@ -56,7 +56,7 @@ const socialLinks = [
               <Link href="/" className="text-base font-bold text-[#0F172A]">
                 <h2 className="text-lg md:text-xl font-outfit font-bold">
                   <span className="text-[#1E3A5F]">Book</span>
-                  <span className="text-[#D97706]">Bridge</span>
+                  <span className="text-[#F7971D]">Bridge</span>
                 </h2>
               </Link>
             </div>
@@ -135,7 +135,7 @@ const socialLinks = [
               <Button
                 type="submit"
                 variant="primary"
-                className="shrink-0 bg-[#D97706] text-white hover:bg-[#B45309]"
+                className="shrink-0 bg-[#F7971D] text-white font-semibold hover:bg-[#e08002]"
               >
                 Subscribe
               </Button>
