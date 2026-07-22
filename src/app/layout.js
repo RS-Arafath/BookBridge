@@ -4,6 +4,7 @@ import { Analytics } from '@vercel/analytics/react';
 import Navbar from '@/components/shared/Navbar';
 import { Toaster } from 'react-hot-toast';
 import Footer from '@/components/shared/Footer';
+import Marquee from 'react-fast-marquee';
 const outfitfonts = Outfit({
   variable: '--font-outfit',
   subsets: ['latin'],
@@ -33,11 +34,13 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-screen flex flex-col bg-[#F8FAFC]">
         <Navbar />
+        <Marquee></Marquee>
         <main className="flex-1">
           {children}
           <Toaster position="top-center" reverseOrder={false} />
         </main>
         <Footer />
+
         <Analytics />
       </body>
     </html>

@@ -17,7 +17,7 @@ const images = [
 
 const Banner = () => {
   return (
-    <section className="relative  mb-5 md:mb-10 h-[60vh] overflow-hidden sm:h-[70vh] md:h-[80vh] lg:h-[90vh]">
+    <section className="relative max-w-8xl mx-auto  mb-5 md:mb-10 h-[60vh] overflow-hidden sm:h-[70vh] md:h-[80vh] lg:h-[90vh]">
       <Swiper
         modules={[Autoplay]}
         loop
@@ -52,7 +52,6 @@ const Banner = () => {
                       <Link href="/">
                         <Button
                           color="primary"
-                       
                           className=" px-6 py-6 text-base lg:px-8 lg:text-lg"
                         >
                           Browse Now
