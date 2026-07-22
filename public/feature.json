@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "description": "A fantasy adventure following Bilbo Baggins on an unexpected journey with dwarves to reclaim a treasure guarded by a dragon.",
+    "category": "Story",
+    "available_quantity": 2,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780547928227-L.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "description": "A practical guide to building good habits and breaking bad ones, using small, incremental changes backed by behavioral science.",
+    "category": "Science",
+    "available_quantity": 4,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg"
+  },
+  {
+    "id": 3,
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "description": "A focused look at the best features of JavaScript, helping developers write cleaner and more reliable code by avoiding its pitfalls.",
+    "category": "Tech",
+    "available_quantity": 6,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780596517748-L.jpg"
+  },
+  {
+    "id": 4,
+    "title": "The Da Vinci Code",
+    "author": "Dan Brown",
+    "description": "A fast-paced mystery thriller following a symbologist unraveling a hidden conspiracy tied to art, history, and religion.",
+    "category": "Story",
+    "available_quantity": 9,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780307474278-L.jpg"
+  }
+]

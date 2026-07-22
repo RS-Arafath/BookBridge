@@ -1,0 +1,33 @@
+{
+  "name": "bookbridge",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@better-auth/mongo-adapter": "^1.6.24",
+    "@gravity-ui/uikit": "^7.46.0",
+    "@heroui/react": "^3.2.2",
+    "@heroui/styles": "^3.2.2",
+    "@iconify/react": "^6.0.2",
+    "@vercel/analytics": "^2.0.1",
+    "better-auth": "^1.6.24",
+    "lucide-react": "^1.25.0",
+    "mongodb": "^7.5.0",
+    "next": "16.2.11",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-hot-toast": "^2.6.0",
+    "swiper": "^14.0.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.11",
+    "tailwindcss": "^4"
+  }
+}

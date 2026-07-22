@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "title": "1984",
+    "author": "George Orwell",
+    "description": "Set in a bleak future London under the totalitarian rule of the Party and its all-seeing leader, Big Brother, the novel follows Winston Smith, a low-level government worker who secretly despises the regime. Winston's job involves rewriting historical records to match the Party's ever-changing propaganda, and he grows increasingly disillusioned with a society where independent thought is treated as a crime punishable by the Thought Police. He begins a forbidden relationship with Julia and secretly documents his rebellious thoughts in a diary, hoping to preserve some sense of truth and individuality. As Winston is drawn into what he believes is an underground resistance movement, he learns just how far the Party will go to control not only actions but thoughts themselves. The novel introduces concepts like doublethink, Newspeak, and constant surveillance that have become permanent parts of political vocabulary. It is ultimately a chilling meditation on power, language, and the fragility of truth when a state controls information completely.",
+    "category": "Story",
+    "available_quantity": 8,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg"
+  },
+  {
+    "id": 2,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "description": "Narrated by Scout Finch, a young girl growing up in the fictional town of Maycomb, Alabama, during the 1930s, this novel follows her father, Atticus Finch, a principled lawyer who agrees to defend Tom Robinson, a Black man falsely accused of assaulting a white woman. Through Scout's innocent yet observant eyes, the story explores the deep racial prejudice embedded in Southern society and how the trial exposes the town's moral fault lines. Alongside the courtroom drama, the novel also follows Scout and her brother Jem's fascination with their reclusive neighbor Boo Radley, weaving themes of childhood curiosity, empathy, and the loss of innocence. Atticus becomes a moral anchor for his children, teaching them to see the world from other people's perspectives even when doing the right thing costs them socially. The book remains a powerful exploration of justice, courage, and compassion, and it continues to be widely read for its unflinching look at inequality through the lens of a child discovering the complexities of the adult world.",
+    "category": "Story",
+    "available_quantity": 5,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg"
+  },
+  {
+    "id": 3,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "description": "This philosophical novel follows Santiago, a young Andalusian shepherd who dreams repeatedly of a treasure buried near the Egyptian pyramids. Encouraged by a mysterious old king he meets early in the story, Santiago sells his flock and sets off on a journey across North Africa in pursuit of what he calls his Personal Legend. Along the way, he encounters an alchemist, falls in love with a desert woman named Fatima, and faces betrayal, hardship, and moments of doubt that test his resolve. Each character he meets offers a piece of wisdom about listening to one's heart, reading the signs the universe provides, and pursuing one's true purpose despite fear of failure. The narrative uses simple, fable-like language to deliver its central message: that the process of pursuing a dream transforms a person more meaningfully than the destination itself. Blending spirituality, adventure, and self-help philosophy, the book has resonated with readers worldwide as an accessible parable about purpose, faith, and the courage required to follow one's own path.",
+    "category": "Story",
+    "available_quantity": 10,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780061122415-L.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "description": "Written by veteran software engineer Robert C. Martin, this book argues that writing clean, readable code is not a luxury but a professional responsibility. It walks through practical principles for naming variables and functions meaningfully, keeping functions small and focused on a single task, and structuring classes so that they are easy to understand and modify. Martin uses real code examples, showing messy implementations and then refactoring them step by step to demonstrate how small, disciplined changes can dramatically improve maintainability. The book also covers topics like writing effective unit tests, handling errors gracefully, formatting conventions, and recognizing 'code smells' that signal deeper design problems. A recurring theme throughout is that code is read far more often than it is written, so optimizing for the next developer's understanding pays off over the life of a project. Rather than presenting rigid rules, the book encourages developers to develop judgment and discipline, treating craftsmanship as a core skill alongside technical knowledge. It remains one of the most referenced books in professional software development for shaping habits around code quality.",
+    "category": "Tech",
+    "available_quantity": 6,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg"
+  },
+  {
+    "id": 5,
+    "title": "The Pragmatic Programmer",
+    "author": "David Thomas, Andrew Hunt",
+    "description": "This book distills decades of software development experience into a set of practical tips aimed at helping programmers become more effective and adaptable. Rather than focusing on a single language or framework, it covers broad principles like avoiding duplication, keeping code decoupled, automating repetitive tasks, and treating your codebase and career with the same care an engineer would apply to any craft. The authors introduce memorable concepts such as the 'DRY principle' (Don't Repeat Yourself), 'tracer bullets' for iterative development, and the idea of programming by coincidence, where developers unknowingly rely on code behaving a certain way without truly understanding why. Beyond pure coding advice, the book touches on communication, estimating work realistically, debugging methodically, and building a mindset of continuous learning throughout a programming career. It also emphasizes taking ownership of your work and thinking critically about the tools and practices you adopt rather than following trends blindly. Aimed at both new and experienced developers, the book has remained influential for its practical, no-nonsense approach to the everyday realities of building software.",
+    "category": "Tech",
+    "available_quantity": 4,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780135957059-L.jpg"
+  },
+  {
+    "id": 6,
+    "title": "You Don't Know JS Yet",
+    "author": "Kyle Simpson",
+    "description": "This book series takes a deep, no-shortcuts approach to JavaScript, aiming to help developers move past surface-level familiarity and truly understand how the language works under the hood. Rather than just teaching syntax, Kyle Simpson dives into scoping and closures, the often-misunderstood behavior of the 'this' keyword, prototypal inheritance, asynchronous programming, and the quirks of type coercion that trip up many developers. Each concept is explained with an emphasis on the 'why' behind JavaScript's design decisions, helping readers build accurate mental models instead of memorized workarounds. The book is written for people who already know some JavaScript but want to close the gaps in their understanding, especially around behaviors that seem confusing or inconsistent at first glance. By addressing these often-skipped fundamentals directly, it helps developers debug more effectively, write more predictable code, and feel confident reading advanced JavaScript in the wild. It has become a well-regarded resource for intermediate developers looking to strengthen their foundation before moving into frameworks or more complex application architecture.",
+    "category": "Tech",
+    "available_quantity": 7,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9781491924464-L.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Design Patterns",
+    "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+    "description": "Written by four authors often referred to as the 'Gang of Four,' this book catalogs twenty-three recurring solutions to common problems in object-oriented software design. Rather than providing ready-made code to copy, it describes general design patterns like Singleton, Factory, Observer, Strategy, and Decorator, explaining the problem each one solves, the trade-offs involved, and example implementations across different scenarios. The patterns are grouped into three categories: creational patterns dealing with object creation, structural patterns dealing with object composition, and behavioral patterns dealing with communication between objects. The book's core contribution was giving developers a shared vocabulary to discuss design decisions, so that saying 'this looks like an Observer pattern' instantly communicates a specific structure and intent to other engineers. While some patterns are now built into modern languages and frameworks, understanding them remains valuable for recognizing recurring architectural problems and evaluating why certain solutions are more maintainable than others. It is considered a foundational reference for intermediate to advanced developers working with object-oriented systems.",
+    "category": "Tech",
+    "available_quantity": 3,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780201633610-L.jpg"
+  },
+  {
+    "id": 8,
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "description": "In this landmark work of popular science, physicist Stephen Hawking attempts to explain some of the universe's most complex ideas in language accessible to non-specialists. The book covers the nature of space and time, the Big Bang theory, black holes, and the search for a unified theory that could explain gravity alongside quantum mechanics. Hawking walks readers through the historical development of cosmology, from Aristotle and Newton's classical views of the universe to Einstein's theory of relativity, before diving into more speculative territory involving the birth and possible end of the universe. He explains difficult concepts like the event horizon of black holes, the arrow of time, and the possibility of time travel, using minimal mathematics and instead relying on analogies and thought experiments. Despite discussing cutting-edge physics, the book is aimed at curious general readers rather than scientists, which contributed to its massive popularity. It remains one of the best-known attempts to make theoretical physics and cosmology understandable and engaging to the public.",
+    "category": "Science",
+    "available_quantity": 9,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780553380163-L.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "description": "Historian Yuval Noah Harari traces the entire journey of Homo sapiens, from insignificant primates in Africa to the dominant species shaping the planet today. The book is organized around three major revolutions: the Cognitive Revolution, which gave humans the ability to create and believe in shared myths like religions, nations, and money; the Agricultural Revolution, which settled humans into farming communities but arguably made daily life harder for many; and the Scientific Revolution, which triggered rapid technological and economic advancement over the last few centuries. Harari argues that humanity's real superpower is the ability to cooperate flexibly in large numbers through shared fictions, something no other species can do at scale. The book also explores uncomfortable topics like the treatment of other human species we may have displaced, the ethics of industrial farming, and the potential future where technology could fundamentally alter what it means to be human. Written in an engaging, big-picture style, it encourages readers to question assumptions about progress, happiness, and what society considers 'natural.'",
+    "category": "Science",
+    "available_quantity": 11,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780062316097-L.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Cosmos",
+    "author": "Carl Sagan",
+    "description": "Based on his acclaimed television series, astronomer Carl Sagan's book takes readers on a sweeping tour through the history of the universe and humanity's place within it. Sagan covers topics ranging from the formation of stars and galaxies to the evolution of life on Earth, the history of astronomy from ancient civilizations to modern space exploration, and the search for extraterrestrial intelligence. He weaves together science, history, and philosophy, presenting complex astrophysical concepts in a poetic and accessible way that made the material approachable for general audiences. Throughout the book, Sagan emphasizes the importance of scientific skepticism and critical thinking, cautioning against superstition while celebrating human curiosity and the drive to understand our origins. He also reflects on humanity's fragile position on a 'pale blue dot' within an unimaginably vast cosmos, encouraging a sense of humility and wonder. Decades after its release, the book remains a beloved introduction to astronomy and the scientific worldview, admired for balancing hard science with genuine emotional and philosophical depth.",
+    "category": "Science",
+    "available_quantity": 6,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780345539434-L.jpg"
+  },
+  {
+    "id": 11,
+    "title": "The Selfish Gene",
+    "author": "Richard Dawkins",
+    "description": "In this influential work of evolutionary biology, Richard Dawkins presents a gene-centered view of evolution, arguing that genes, not individual organisms or species, are the fundamental units on which natural selection acts. He uses the memorable metaphor of genes as 'selfish' entities driven to replicate themselves, with organisms essentially serving as vehicles or survival machines built to carry genes forward into future generations. The book explains how seemingly altruistic behaviors in nature, like animals warning others of danger at personal risk, can actually be explained through gene-level self-interest, since helping close relatives survive also helps shared genes propagate. Dawkins also introduces the concept of the 'meme' as a unit of cultural transmission, drawing a parallel between genetic evolution and the spread of ideas through a population. Written for a general audience but grounded in serious evolutionary theory, the book challenged and reshaped how both scientists and the public understood the mechanics of evolution. It remains widely read and debated for its clear, provocative framing of Darwinian evolution through the lens of genetics.",
+    "category": "Science",
+    "available_quantity": 5,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780198788607-L.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "description": "This is the first book in the Harry Potter series, introducing readers to Harry, an orphaned boy raised by his neglectful aunt and uncle, who discovers on his eleventh birthday that he is actually a wizard. Harry is whisked away to Hogwarts School of Witchcraft and Wizardry, where he begins learning magic alongside new friends Ron Weasley and Hermione Granger. As Harry adjusts to this new magical world, he uncovers clues about his parents' mysterious deaths and learns that he is famous for surviving an attack by the dark wizard Lord Voldemort as an infant. Throughout the school year, Harry and his friends investigate a hidden object called the Sorcerer's Stone, suspecting that someone within Hogwarts is trying to steal it for sinister purposes. Along the way, the trio faces enchanted obstacles, dangerous creatures, and secrets guarded by the school's teachers. The book combines wonder, friendship, and mystery, laying the foundation for the larger saga while introducing readers to the richly imagined world of magic, houses, and moral choices that define the series.",
+    "category": "Story",
+    "available_quantity": 15,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780590353427-L.jpg"
+  },
+  {
+    "id": 13,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "description": "Set during the extravagant Jazz Age of the 1920s, this novel is narrated by Nick Carraway, who moves next door to the mysterious and fabulously wealthy Jay Gatsby on Long Island. Gatsby is famous for hosting lavish parties, but his true motivation is to reunite with Daisy Buchanan, a woman he loved years earlier and who is now unhappily married to the arrogant Tom Buchanan. As Nick becomes drawn into Gatsby's world, he witnesses the emptiness hidden behind the glittering wealth and social status of the era, along with the reckless carelessness of those who have never had to face real consequences. Gatsby's relentless pursuit of Daisy and his idealized vision of the past ultimately leads to tragedy, exposing the corruption and moral decay lurking beneath the American Dream's promise of reinvention. Fitzgerald's lyrical prose captures both the dazzling surface of the era and its underlying hollowness, making the novel a lasting critique of ambition, class, and illusion. It remains one of the most studied works of American literature for its themes of desire and disillusionment.",
+    "category": "Story",
+    "available_quantity": 7,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "description": "This classic novel follows Elizabeth Bennet, one of five sisters in a genteel but financially modest English family, as she navigates issues of marriage, social class, and reputation in early 19th-century society. When the wealthy Mr. Darcy arrives in the neighborhood, Elizabeth initially finds him arrogant and off-putting, while he in turn is drawn to her wit despite his own prejudices about her family's lower social standing. Through a series of misunderstandings, gossip, and social missteps, both characters are forced to confront their own pride and preconceived judgments about each other. Meanwhile, the novel follows the romantic entanglements of Elizabeth's sisters, painting a broader picture of the pressures women faced to marry well in a society where financial security depended heavily on it. Austen's sharp wit and keen social observation expose the absurdities of class snobbery and courtship rituals of the period, while still delivering a satisfying romantic story. The evolving relationship between Elizabeth and Darcy, built on mutual growth and honesty rather than superficial first impressions, has made this one of the most beloved romance novels in English literature.",
+    "category": "Story",
+    "available_quantity": 9,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+    "description": "Often referred to by students simply as 'CLRS' after its authors' initials, this book is one of the most comprehensive textbooks on algorithms and data structures used in computer science education worldwide. It covers foundational topics like sorting and searching algorithms, along with more advanced areas including graph algorithms, dynamic programming, greedy algorithms, and computational complexity theory. Each algorithm is presented with rigorous mathematical analysis, including proofs of correctness and formal reasoning about time and space efficiency using Big-O notation. The book balances theory with practical pseudocode implementations, making it useful both for understanding the mathematical underpinnings of computer science and for applying algorithms to real coding problems. Later chapters address more specialized topics like NP-completeness, approximation algorithms, and parallel algorithms, making the book relevant well beyond an introductory course. Because of its depth and rigor, it is widely used not just in university courses but also as a reference for technical interview preparation at major software companies. It remains a standard text for anyone wanting a serious, mathematically grounded understanding of algorithm design and analysis.",
+    "category": "Tech",
+    "available_quantity": 4,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780262046305-L.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Eloquent JavaScript",
+    "author": "Marijn Haverbeke",
+    "description": "This book offers a modern, hands-on introduction to programming using JavaScript, aimed at readers who want to understand not just how to write code, but how to think like a programmer. It begins with fundamental concepts like variables, functions, and control flow, then gradually builds toward more advanced topics including higher-order functions, object-oriented programming, asynchronous programming with promises, and working with the browser's Document Object Model. Along the way, the author includes practical projects, such as building a simple programming language interpreter and a pathfinding robot simulation, to reinforce concepts through applied practice. The book is notable for including interactive code examples that readers can run and modify directly, making it especially approachable for self-taught learners. Later chapters extend into working with Node.js for server-side JavaScript and handling HTTP requests, giving readers exposure to full-stack concepts. Its blend of clear explanations, real projects, and a slightly philosophical tone toward programming as a craft has made it a popular free and accessible resource for beginners moving into serious JavaScript development.",
+    "category": "Tech",
+    "available_quantity": 8,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9781593279509-L.jpg"
+  },
+  {
+    "id": 17,
+    "title": "The Origin of Species",
+    "author": "Charles Darwin",
+    "description": "This foundational work of biology introduces Charles Darwin's theory of evolution through natural selection, built on years of observations during his voyage aboard the HMS Beagle and subsequent research into plant and animal breeding. Darwin argues that species change over time through a process where individuals with traits better suited to their environment are more likely to survive and reproduce, gradually shaping populations over many generations. He carefully builds his case using evidence from selective breeding of domesticated animals, the fossil record, and the geographic distribution of species, anticipating and addressing objections a skeptical Victorian audience might raise. The book was controversial upon release because it challenged prevailing religious views about the fixed, divinely created nature of species, and it continues to be a touchstone in debates about science and religion. Despite predating modern genetics, Darwin's core ideas about variation, competition, and inheritance have been strongly supported and refined by subsequent scientific discoveries. It remains one of the most significant scientific texts ever published, fundamentally reshaping humanity's understanding of life's diversity and origins.",
+    "category": "Science",
+    "available_quantity": 4,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780451529060-L.jpg"
+  },
+  {
+    "id": 18,
+    "title": "The Gene: An Intimate History",
+    "author": "Siddhartha Mukherjee",
+    "description": "Physician and researcher Siddhartha Mukherjee traces the history of genetics from Gregor Mendel's early experiments with pea plants to the modern era of genome editing and personalized medicine. The book blends scientific history with personal narrative, drawing on Mukherjee's own family history of mental illness to explore how genes shape not just physical traits but behavior and identity. He covers major milestones including the discovery of DNA's structure, the mapping of the human genome, and the rise of technologies like CRISPR that allow scientists to directly edit genetic material. Alongside the science, Mukherjee grapples with difficult ethical questions about genetic testing, inherited disease, and the troubling history of eugenics, showing how the desire to control heredity has sometimes been misused for discriminatory purposes. The book manages to explain complex molecular biology in an engaging way while never losing sight of the profound human stakes involved in understanding our genetic code. It offers both a rigorous scientific education and a thoughtful meditation on what genetics means for our sense of self and family.",
+    "category": "Science",
+    "available_quantity": 6,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9781476733500-L.jpg"
+  },
+  {
+    "id": 19,
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "description": "This novel follows Amir, a boy growing up in Kabul, Afghanistan, and his close friendship with Hassan, the son of his father's servant, whose loyalty and skill at kite running Amir both admires and envies. A traumatic betrayal during a kite-fighting tournament shatters their friendship and haunts Amir well into adulthood, even after he and his father flee to the United States following the Soviet invasion of Afghanistan. Years later, living a comfortable life in California, Amir receives a call urging him to return to a country now ruled by the Taliban, offering him a chance to confront the guilt he has carried since childhood. The story explores themes of loyalty, guilt, and redemption against the backdrop of Afghanistan's turbulent political history, from the fall of the monarchy through Soviet occupation to Taliban rule. Hosseini weaves personal tragedy with historical upheaval, showing how political violence intersects with private betrayals and long-delayed attempts to make amends. The novel resonated with readers worldwide for humanizing a country often seen only through headlines, while telling a deeply personal story of friendship and forgiveness.",
+    "category": "Story",
+    "available_quantity": 10,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9781594631931-L.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Astrophysics for People in a Hurry",
+    "author": "Neil deGrasse Tyson",
+    "description": "Astrophysicist Neil deGrasse Tyson distills some of the universe's biggest and most mind-bending ideas into short, digestible chapters meant for readers without a scientific background or much spare time. The book covers topics ranging from the Big Bang and the formation of galaxies to dark matter, dark energy, and the search for exoplanets that could potentially harbor life. Tyson explains how astrophysicists piece together an understanding of the cosmos using light, gravity, and radiation, often comparing complex phenomena to everyday experiences to make them more relatable. He also touches on humanity's place within the vastness of the universe, encouraging readers to appreciate how interconnected the elements that make up stars, planets, and even human bodies really are. Written with wit and enthusiasm, the book manages to convey genuine scientific rigor without requiring advanced math or prior astronomy knowledge. Because each chapter is short and self-contained, it works well as an entry point for readers curious about space but intimidated by denser popular science books, offering a fast but substantive tour of modern cosmology.",
+    "category": "Science",
+    "available_quantity": 12,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780393609394-L.jpg"
+  }
+]

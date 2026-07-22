@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Story",
+    "slug": "story",
+    "description": "Fiction and narrative books including novels, classics, and literary works."
+  },
+  {
+    "id": 2,
+    "name": "Tech",
+    "slug": "tech",
+    "description": "Books on programming, software engineering, and computer science."
+  },
+  {
+    "id": 3,
+    "name": "Science",
+    "slug": "science",
+    "description": "Books exploring physics, biology, cosmology, and the natural world."
+  }
+]
