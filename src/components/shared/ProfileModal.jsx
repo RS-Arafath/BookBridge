@@ -14,7 +14,10 @@ const ProfileModal = ({user}) => {
       <Modal.Trigger className="cursor-pointer">
         <Tooltip delay={100}>
           <Tooltip.Trigger>
-            <Avatar size="sm" className="ring-1 ring-blue-600 ring-offset-1">
+            <Avatar
+              size="sm"
+              className="ring-1 ring-[#D97706] ring-offset-1"
+            >
               {user?.image ? (
                 <Avatar.Image
                   alt={user.name}

@@ -8,7 +8,6 @@ import { Menu, X } from 'lucide-react';
 import { authClient } from '@/lib/auth-client';
 import ProfileModal from './ProfileModal';
 
-
 const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/allBooks', label: 'All Books' },
@@ -18,8 +17,6 @@ const navLinks = [
 const Navbar = () => {
   const userData = authClient.useSession();
   const user = userData.data?.user;
- 
-  //console.log('USER:', user); 
   const isPending = userData.isPending;
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
@@ -38,12 +35,12 @@ const Navbar = () => {
             height={56}
             className="h-14 w-14 object-contain dark:brightness-200"
           />
-          <h2 className="text-lg md:text-xl font-outfit font-bold text-[#0F172A]">
-            BookBridge
+          <h2 className="text-lg md:text-xl font-outfit font-bold">
+            <span className="text-[#1E3A5F]">Book</span>
+            <span className="text-[#D97706]">Bridge</span>
           </h2>
         </Link>
 
-        {/* Desktop Menu */}
         <ul className="hidden font-inter md:flex items-center gap-5 lg:gap-8">
           {navLinks.map((item) => {
             const active = pathname === item.href;
@@ -55,11 +52,11 @@ const Navbar = () => {
                   className={`relative pb-1 transition-all duration-300
                   ${
                     active
-                      ? 'text-[#4F46E5]'
-                      : 'text-[#64748B] hover:text-[#4F46E5]'
+                      ? 'text-[#D97706]'
+                      : 'text-[#64748B] hover:text-[#D97706]'
                   }
                   after:absolute after:left-0 after:bottom-0
-                  after:h-0.5 after:bg-[#4F46E5]
+                  after:h-0.5 after:bg-[#D97706]
                   after:transition-all after:duration-300
                   ${active ? 'after:w-full' : 'after:w-0 hover:after:w-full'}`}
                 >
@@ -70,11 +67,10 @@ const Navbar = () => {
           })}
         </ul>
 
-        {/* Desktop Button */}
         <div className="hidden md:flex gap-3">
           {isPending ? (
             <div className="flex items-center justify-center h-8 w-8">
-              <div className="h-6 w-6 animate-spin rounded-full border-2 border-[#E2E8F0] border-t-[#4F46E5]" />
+              <div className="h-6 w-6 animate-spin rounded-full border-2 border-[#E2E8F0] border-t-[#D97706]" />
             </div>
           ) : (
             !user && (
@@ -85,7 +81,7 @@ const Navbar = () => {
                 >
                   <Link href="/signup">Sign Up</Link>
                 </Button>
-                <Button className="bg-[#4F46E5] text-white hover:bg-[#4338CA]">
+                <Button className="bg-[#D97706] text-white hover:bg-[#B45309]">
                   <Link href="/signin">Sign In</Link>
                 </Button>
               </div>
@@ -109,7 +105,6 @@ const Navbar = () => {
         </button>
       </nav>
 
-      {/* Mobile Menu bar*/}
       <div
         className={`md:hidden overflow-hidden transition-all duration-300 ${
           open ? 'max-h-96 border-t border-[#E2E8F0]' : 'max-h-0'
@@ -121,10 +116,10 @@ const Navbar = () => {
               key={item.href}
               href={item.href}
               onClick={() => setOpen(false)}
-              className={`block font-medium transition ${
+              className={`block font-light transition ${
                 pathname === item.href
-                  ? 'text-[#4F46E5]'
-                  : 'text-[#64748B] hover:text-[#4F46E5]'
+                  ? 'text-[#ff8a04] font-bold '
+                  : 'text-[#64748B] hover:text-[#D97706]'
               }`}
             >
               {item.label}
@@ -134,7 +129,7 @@ const Navbar = () => {
           <div className="pt-4 flex flex-col gap-3">
             {isPending ? (
               <div className="flex items-center justify-center h-8 w-8">
-                <div className="h-6 w-6 animate-spin rounded-full border-2 border-[#E2E8F0] border-t-[#4F46E5]" />
+                <div className="h-6 w-6 animate-spin rounded-full border-2 border-[#E2E8F0] border-t-[#D97706]" />
               </div>
             ) : (
               !user && (
@@ -148,7 +143,7 @@ const Navbar = () => {
                   </Button>
 
                   <Button
-                    className="bg-[#4F46E5] text-white hover:bg-[#4338CA]"
+                    className="bg-[#D97706] text-white hover:bg-[#B45309]"
                     fullWidth
                   >
                     <Link href="/signin">Sign In</Link>

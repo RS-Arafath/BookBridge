@@ -39,7 +39,7 @@ const Banner = () => {
                   <div className="text-left text-white">
                     <h1 className="font-inter font-extrabold leading-tight text-3xl sm:text-4xl md:text-5xl lg:text-7xl ">
                       Find Your <br />
-                      <span className="text-[#5851e0]">Next Read</span>
+                      <span className="text-[#D97706]">Next Read</span>
                     </h1>
 
                     <p className="mt-4 max-w-2xl text-sm leading-7 text-gray-200 sm:text-base md:text-lg lg:mt-6 lg:text-xl xl:text-2xl font-inter ">
@@ -52,7 +52,7 @@ const Banner = () => {
                       <Link href="/">
                         <Button
                           color="primary"
-                          className=" px-6 py-6 text-base lg:px-8 lg:text-lg"
+                          className="bg-[#D97706] px-6 py-6 text-base lg:px-8 lg:text-lg"
                         >
                           Browse Now
                         </Button>

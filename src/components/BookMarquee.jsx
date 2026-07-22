@@ -4,25 +4,32 @@ import { Bell, Headphones } from 'lucide-react';
 
 const announcements = [
   {
-    dotColor: 'bg-amber-500',
+    dotColor: 'bg-[#D97706]',
     label: 'New Arrivals:',
-    labelColor: 'text-white',
+    labelColor: 'text-[#FBBF24]',
     text: '"Atomic Habits" and "Deep Work" are now available!',
     emoji: '📘',
   },
   {
-    dotColor: 'bg-blue-500',
+    dotColor: 'bg-[#1E3A5F]',
     label: 'Special Offer:',
-    labelColor: 'text-blue-400',
+    labelColor: 'text-[#60A5FA]',
     text: 'Get 30% Discount on Premium Membership',
     emoji: '',
   },
   {
-    dotColor: 'bg-green-500',
+    dotColor: 'bg-[#B45309]',
     label: 'Free Shipping:',
-    labelColor: 'text-green-400',
+    labelColor: 'text-[#FCD34D]',
     text: 'On all orders over $30',
     emoji: '',
+  },
+  {
+    dotColor: 'bg-[#D97706]',
+    label: 'New Arrival Books:',
+    labelColor: 'text-[#FBBF24]',
+    text: 'Fresh titles added every week',
+    emoji: '✨',
   },
 ];
 
@@ -30,8 +37,7 @@ const BookMarquee = () => {
   return (
     <div className="bg-[#0F172A] py-1 container mx-auto pr-4">
       <div className="flex items-stretch">
-       
-        <div className="shrink-0 flex items-center gap-2 bg-gradient-to-r from-[#4F46E5] to-[#6366F1] px-5 py-2 skew-x-[-8deg] -ml-2">
+        <div className="shrink-0 flex items-center gap-2 bg-gradient-to-r from-[#D97706] to-[#f79524] px-5 py-2 skew-x-[-8deg] -ml-2">
           <div className="flex items-center gap-2 skew-x-[8deg]">
             <Bell className="h-4 w-4 text-white fill-white" />
             <span className="text-sm font-bold text-white tracking-wide">
@@ -40,11 +46,8 @@ const BookMarquee = () => {
           </div>
         </div>
 
-       
-
-        {/*  marquee */}
         <div className="flex-1 overflow-hidden flex items-center">
-          <Marquee speed={40} gradient={false}>
+          <Marquee speed={80} gradient={false}>
             {announcements.map((item, i) => (
               <div key={i} className="flex items-center gap-2 mx-8">
                 <span className={`h-2 w-2 rounded-full ${item.dotColor}`} />
