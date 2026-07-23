@@ -136,16 +136,11 @@ const Navbar = () => {
                 <div className=" flex gap-3">
                   <Button
                     variant="bordered"
-                    className="border border-[#E2E8F0] text-[#0F172A]"
-                    fullWidth
+                    className="border border-[#E2E8F0] text-[#0F172A] hover:bg-[#F8FAFC] hover:border-[#fd8f00] duration-200 "
                   >
                     <Link href="/signup">Sign Up</Link>
                   </Button>
-
-                  <Button
-                    className="bg-[#D97706] text-white hover:bg-[#B45309]"
-                    fullWidth
-                  >
+                  <Button className="bg-[#F7971D] text-white hover:bg-[#f68c02]">
                     <Link href="/signin">Sign In</Link>
                   </Button>
                 </div>
