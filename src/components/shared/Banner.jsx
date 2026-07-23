@@ -19,7 +19,9 @@ const Banner = () => {
   return (
     <section className="relative max-w-8xl mx-auto  mb-5 md:mb-10 h-[60vh] overflow-hidden sm:h-[70vh] md:h-[80vh] lg:h-[90vh] font-inter">
       <Swiper
-        modules={[Autoplay]}
+        modules={[Autoplay, EffectFade]}
+        effect="fade"
+        fadeEffect={{ crossFade: true }}
         loop
         speed={1200}
         autoplay={{
