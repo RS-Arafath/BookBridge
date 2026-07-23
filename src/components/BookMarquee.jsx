@@ -35,7 +35,7 @@ const announcements = [
 
 const BookMarquee = () => {
   return (
-    <div className="bg-[#0F172A] py-1 container mx-auto pr-4">
+    <div className="bg-[#0F172A] py-1 max-w-7xl mx-auto pr-4">
       <div className="flex items-stretch">
         <div className="shrink-0 flex items-center gap-2 bg-gradient-to-r from-[#D97706] to-[#f79524] px-5 py-2 skew-x-[-8deg] -ml-2">
           <div className="flex items-center gap-2 skew-x-[8deg]">

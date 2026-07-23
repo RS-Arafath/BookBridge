@@ -80,7 +80,7 @@ const socialLinks = [
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={social.label}
-                      className="flex items-center justify-center h-9 w-9 rounded-full bg-white border border-[#E2E8F0] text-[#64748B] duration-200 hover:bg-[#D97706] hover:text-white hover:border-[#D97706] transition-colors"
+                      className="flex items-center justify-center h-9 w-9 rounded-full bg-white border border-[#E2E8F0] text-[#64748B] duration-200 hover:bg-[#f48608] hover:text-white hover:border-[#f48608] transition-colors"
                     >
                       <Icon className="h-4 w-4" />
                     </Link>
@@ -108,7 +108,7 @@ const socialLinks = [
           </div>
 
           <div className="flex flex-col gap-3 md:w-1/3">
-            <h4 className="text-sm font-semibold text-[#0F172A] mb-1">
+            <h4 className="text-sm md:text-base lg:text-lg font-semibold text-[#0F172A] mb-1">
               Subscribe to our newsletter
             </h4>
             <p className="text-sm text-[#64748B]">
@@ -129,7 +129,7 @@ const socialLinks = [
                 <label></label>
                 <Input
                   placeholder="Enter your email"
-                  className="w-full rounded-md border border-[#E2E8F0] px-3 py-2 text-sm outline-none focus:border-[#D97706] data-[hover=true]:border-[#D97706]"
+                  className="w-full rounded-md border px-3 py-2 text-sm outline-none focus:!border-[#D97706] focus:ring-0"
                 />
               </TextField>
               <Button
@@ -143,7 +143,6 @@ const socialLinks = [
           </div>
         </div>
 
-        {/* Bottom bar */}
         <div className="mt-10 pt-6 border-t border-[#E2E8F0] text-center text-sm text-[#64748B]">
           © {new Date().getFullYear()} BookBridge. All rights reserved.
         </div>

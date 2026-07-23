@@ -14,10 +14,7 @@ const ProfileModal = ({user}) => {
       <Modal.Trigger className="cursor-pointer">
         <Tooltip delay={100}>
           <Tooltip.Trigger>
-            <Avatar
-              size="sm"
-              className="ring-1 ring-[#D97706] ring-offset-1"
-            >
+            <Avatar size="sm" className="ring-1 ring-[#D97706] ring-offset-1">
               {user?.image ? (
                 <Avatar.Image
                   alt={user.name}
@@ -26,7 +23,7 @@ const ProfileModal = ({user}) => {
                 />
               ) : (
                 <Avatar.Fallback>
-                  <UserIcon className="h-5 w-5 text-blue-500" />
+                  <UserIcon className="h-5 w-5 text-[#1E3A5F]" />
                 </Avatar.Fallback>
               )}
             </Avatar>
@@ -41,7 +38,7 @@ const ProfileModal = ({user}) => {
         className="bg-linear-to-t from-black/80 via-black/40 to-transparent dark:from-zinc-800/80 dark:via-zinc-800/40"
         variant="transparent"
       >
-        <Modal.Container className="!block !p-0 ">
+        <Modal.Container className="!block !p-10 ">
           <Modal.Dialog
             className="
               !fixed !top-1/2 !left-1/2 !-translate-x-1/2 !-translate-y-1/2 !m-0
@@ -60,7 +57,7 @@ const ProfileModal = ({user}) => {
             </Modal.Header>
 
             <Modal.Body className="flex flex-col items-center gap-3">
-              <Avatar className="h-20 w-20 rounded-full ring-1 ring-blue-600 ring-offset-1">
+              <Avatar className="h-20 w-20 rounded-full ring-1 ring-[#F7971D] ring-offset-1">
                 {user.image ? (
                   <Avatar.Image
                     alt={user.name}
@@ -69,7 +66,7 @@ const ProfileModal = ({user}) => {
                   />
                 ) : (
                   <Avatar.Fallback>
-                    <UserIcon className="h-10 w-10 text-blue-500" />
+                    <UserIcon className="h-10 w-10 text-[#1E3A5F]" />
                   </Avatar.Fallback>
                 )}
               </Avatar>
@@ -78,14 +75,17 @@ const ProfileModal = ({user}) => {
 
             <Modal.Footer className="flex-col-reverse">
               <Button
-                className="w-full border border-red-700 bg-red-200 hover:bg-red-400"
+                className="w-full border border-[#1E3A5F] hover:bg-[#054293] text-white bg-[#1E3A5F] "
                 variant="bordered"
                 onClick={handleSignOut}
               >
                 <LogOut className="h-4 w-4 mr-1" />
                 Log Out
               </Button>
-              <Button className="w-full" slot="close">
+              <Button
+                className="w-full border border-[#F7971D] hover:bg-[#F7971D] bg-white text-[#1E3A5F]"
+                slot="close"
+              >
                 Close
               </Button>
             </Modal.Footer>
