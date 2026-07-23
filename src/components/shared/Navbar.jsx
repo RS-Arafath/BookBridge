@@ -56,7 +56,7 @@ const Navbar = () => {
                       : 'text-[#64748B] hover:text-[#F7971D]'
                   }
                   after:absolute after:left-0 after:bottom-0
-                  after:h-0.5 after:bg-[#D97706]
+                  after:h-0.5 after:bg-[#F7971D]
                   after:transition-all after:duration-300
                   ${active ? 'after:w-full' : 'after:w-0 hover:after:w-full'}`}
                 >
@@ -90,8 +90,8 @@ const Navbar = () => {
           {user && (
             <div className="flex justify-center items-center gap-2">
               <ProfileModal user={user} />
-              <h1 className="text-lg md:text-xl font-semibold font-jetbrains-mono text-[#0F172A]">
-                {user?.name}!
+              <h1 className="text-lg md:text-xl font-semibold font-inter text-[#0F172A]">
+                {user?.name} !
               </h1>
             </div>
           )}

@@ -14,7 +14,7 @@ const ProfileModal = ({user}) => {
       <Modal.Trigger className="cursor-pointer">
         <Tooltip delay={100}>
           <Tooltip.Trigger>
-            <Avatar size="sm" className="ring-1 ring-[#D97706] ring-offset-1">
+            <Avatar size="sm" className="ring-1 ring-[#F7971D] ring-offset-1">
               {user?.image ? (
                 <Avatar.Image
                   alt={user.name}
@@ -73,10 +73,11 @@ const ProfileModal = ({user}) => {
               <p className="text-sm text-gray-600">{user.email}</p>
             </Modal.Body>
 
-            <Modal.Footer className="flex-col-reverse">
+            <Modal.Footer className="flex flex-row-reverse justify-center items-center">
               <Button
                 className="w-full border border-[#1E3A5F] hover:bg-[#054293] text-white bg-[#1E3A5F] "
                 variant="bordered"
+                size="sm"
                 onClick={handleSignOut}
               >
                 <LogOut className="h-4 w-4 mr-1" />
@@ -85,6 +86,7 @@ const ProfileModal = ({user}) => {
               <Button
                 className="w-full border border-[#F7971D] hover:bg-[#F7971D] bg-white text-[#1E3A5F]"
                 slot="close"
+                size="sm"
               >
                 Close
               </Button>
