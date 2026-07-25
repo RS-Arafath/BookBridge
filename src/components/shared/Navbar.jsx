@@ -97,15 +97,6 @@ const Navbar = () => {
           )}
         </div>
 
-        <button
-          className="md:hidden text-[#0F172A]"
-          onClick={() => setOpen(!open)}
-        >
-          {open ? <X size={26} /> : <Menu size={26} />}
-        </button>
-      </nav>
-
-      <div
         className={`md:hidden overflow-hidden transition-all duration-300 ${
           open ? 'max-h-96 border-t border-[#E2E8F0]' : 'max-h-0'
         }`}
