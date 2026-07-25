@@ -8,12 +8,6 @@ import 'swiper/css/effect-fade';
 import Link from 'next/link';
 import { Button } from '@heroui/react';
 
-const images = [
-  '/images/banner/banner-1.jpg',
-  '/images/banner/banner-2.jpg',
-  '/images/banner/banner-3.jpg',
-  '/images/banner/banner-5.jpg',
-];
 
 const Banner = () => {
   return (
