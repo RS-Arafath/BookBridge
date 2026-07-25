@@ -45,7 +45,9 @@ const Banner = () => {
                     </h1>
 
                     <p className="mt-4 max-w-2xl text-sm leading-7 text-gray-200 sm:text-base md:text-lg lg:mt-6 lg:text-xl xl:text-2xl font-inter ">
-                    
+                      Discover, borrow, and read your favorite books online — no
+                      waiting, no late fees, just great stories at your
+                      fingertips.
                     </p>
 
                     <div className="mt-8 flex flex-wrap items-center gap-4 lg:mt-10">
