@@ -25,7 +25,7 @@ const Banner = () => {
         loop
         speed={1200}
         autoplay={{
-          delay: 4000,
+          delay: 3000,
           disableOnInteraction: false,
         }}
         className="absolute inset-0 h-full w-full"
