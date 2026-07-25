@@ -25,7 +25,7 @@ const notFound = () => {
 
         {/* Description */}
         <p className="mx-auto mt-4 max-w-lg text-base leading-7 text-slate-600 dark:text-slate-400">
-          The page you're looking for doesn't exist, may have been moved, or the
+    r doesn't exist, may have been moved, or the
           URL might be incorrect.
         </p>
         {/* Buttons */}
