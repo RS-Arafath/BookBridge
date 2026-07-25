@@ -56,7 +56,7 @@ const Banner = () => {
                           color="primary"
                           className="bg-[#D97706] font-jetbrains-mono hover:bg-[#B45309] px-5 py-4 text-sm md:px-7 md:py-5 md:text-base lg:px-8 lg:py-6 lg:text-lg font-bold"
                         >
-                          Browse Now
+                         
                         </Button>
                       </Link>
                     </div>
