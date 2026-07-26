@@ -71,7 +71,10 @@ export const FeatureImage = async () => {
                   {item.title}
                 </h3>
                 <h4 className="text-xs sm:text-sm text-gray-500">
-                  {item.author}
+                  By{' '}
+                  <span className="font-medium text-[#1E3A5F]">
+                    {item.author}
+                  </span>
                 </h4>
                 <div className="border-t border-[#1E3A5F]/10 mt-3"></div>
 
@@ -83,9 +86,9 @@ export const FeatureImage = async () => {
                     {' '}
                     <Button
                       variant="bordered"
-                      className="border hover:bg-[#F7971D] w-full"
+                      className="border hover:bg-[#F7971D] text-[#F7971D] hover:text-white w-full border-[#F7971D] transition-colors duration-150 md:text-lg font-bold" 
                     >
-                      <Link href="/signup">Details</Link>
+                      <Link href="/">Details</Link>
                     </Button>
                   </Link>
                 </div>
