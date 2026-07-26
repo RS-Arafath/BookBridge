@@ -67,7 +67,7 @@ export const FeatureImage = async () => {
               </div>
 
               <div className="flex flex-1 flex-col p-5">
-                <h3 className="line-clamp-2 font-bold text-base sm:text-lg md:text-xl text-[#1E3A5F]">
+                <h3 className="line-clamp-2 min-h-[56px] font-bold text-base sm:text-lg md:text-xl text-[#1E3A5F]">
                   {item.title}
                 </h3>
                 <h4 className="text-xs sm:text-sm text-gray-500">
@@ -80,8 +80,12 @@ export const FeatureImage = async () => {
                     href={`/topGenarated/${item.id}`}
                     className="block w-full"
                   >
-                    <Button className="w-full bg-[#F7971D] text-white hover:bg-[#e08812] transition-colors">
-                      Details
+                    {' '}
+                    <Button
+                      variant="bordered"
+                      className="border hover:bg-[#F7971D] w-full"
+                    >
+                      <Link href="/signup">Details</Link>
                     </Button>
                   </Link>
                 </div>
