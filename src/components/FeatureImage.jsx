@@ -80,15 +80,15 @@ export const FeatureImage = async () => {
 
                 <div className="mt-5">
                   <Link
-                    href={`/topGenarated/${item.id}`}
+                    href={`/featurePhoto/${item.id}`}
                     className="block w-full"
                   >
                     {' '}
                     <Button
                       variant="bordered"
-                      className="border hover:bg-[#F7971D] text-[#F7971D] hover:text-white w-full border-[#F7971D] transition-colors duration-150 md:text-lg font-bold" 
+                      className="border hover:bg-[#F7971D] text-[#F7971D] hover:text-white w-full border-[#F7971D] transition-colors duration-150 md:text-lg font-bold"
                     >
-                      <Link href="/">Details</Link>
+                      Details
                     </Button>
                   </Link>
                 </div>
