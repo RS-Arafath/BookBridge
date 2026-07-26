@@ -1,9 +1,8 @@
 import PhotoDetails from '@/components/shared/PhotoDetails';
-import React from 'react';
 
-const FeatureDetails = async ({params}) => {
+const FeatureDetails = async ({ params }) => {
   const { id } = await params;
-  let featureData = [];
+  let featureData = null;
 
   try {
     const res = await fetch(
@@ -12,10 +11,20 @@ const FeatureDetails = async ({params}) => {
     if (!res.ok) {
       throw new Error(`Failed to fetch: ${res.status}`);
     }
-    featureData = await res.json();
+    const allBooks = await res.json();
+    featureData = allBooks.find((book) => book.id === id);
   } catch (error) {
-    console.error('Error fetching featured books:', error);
+    console.error('Error fetching book details:', error);
   }
+
+  if (!featureData) {
+    return (
+      <div className="container mx-auto px-4 py-12 text-center text-gray-500">
+        Sorry, we couldn&apos;t find this book.
+      </div>
+    );
+  }
+
   return (
     <div>
       <PhotoDetails featureData={featureData}></PhotoDetails>

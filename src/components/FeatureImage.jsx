@@ -78,7 +78,7 @@ export const FeatureImage = async () => {
                 </h4>
                 <div className="border-t border-[#1E3A5F]/10 mt-3"></div>
 
-                <div className="mt-5">
+                <div className="my-5">
                   <Link
                     href={`/featurePhoto/${item.id}`}
                     className="block w-full"
