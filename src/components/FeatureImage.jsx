@@ -19,14 +19,24 @@ export const FeatureImage = async () => {
 
   return (
     <section className="container mx-auto px-4 py-12 font-inter">
-      <div className="mb-8">
+      <div className="mb-10 text-center">
+        <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-[#F7971D]">
+          Borrow Your Next Favorite Book
+        </h1>
+        <p className="mt-3 text-base md:text-lg text-[#1E3A5F] max-w-2xl mx-auto">
+          Explore our collection, borrow the books you love, and return them
+          easily once you&apos;re done reading.
+        </p>
+      </div>
+
+      {/* <div className="mb-8">
         <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#1E3A5F]">
           Top Generated Images
         </h2>
         <p className="mt-2 text-gray-500">
           Discover the most popular AI-generated artworks.
         </p>
-      </div>
+      </div> */}
 
       {featureData.length === 0 ? (
         <p className="text-gray-500">No featured books available right now.</p>
@@ -57,15 +67,20 @@ export const FeatureImage = async () => {
               </div>
 
               <div className="flex flex-1 flex-col p-5">
-                <h3 className="line-clamp-2 font-bold text-lg text-[#1E3A5F]">
+                <h3 className="line-clamp-2 font-bold text-base sm:text-lg md:text-xl text-[#1E3A5F]">
                   {item.title}
                 </h3>
-                <h4 className="text-sm text-gray-500">{item.author}</h4>
+                <h4 className="text-xs sm:text-sm text-gray-500">
+                  {item.author}
+                </h4>
                 <div className="border-t border-[#1E3A5F]/10 mt-3"></div>
 
-                <div className="mt-5 flex justify-end">
-                  <Link href={`/topGenarated/${item.id}`}>
-                    <Button className="bg-[#F7971D] text-white hover:bg-[#e08812] transition-colors">
+                <div className="mt-5">
+                  <Link
+                    href={`/topGenarated/${item.id}`}
+                    className="block w-full"
+                  >
+                    <Button className="w-full bg-[#F7971D] text-white hover:bg-[#e08812] transition-colors">
                       Details
                     </Button>
                   </Link>
