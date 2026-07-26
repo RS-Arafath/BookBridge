@@ -8,20 +8,21 @@ const PhotoDetails = async ({ featureData }) => {
   const isAvailable = featureData.available_quantity > 0;
 
   return (
-    <section className="container mx-auto px-4 py-8 lg:py-14 font-inter">
+    <section className="container mx-auto px-4 py-8 md:py-14 font-inter">
       {/* Back Button */}
       <div>
         <BackButton></BackButton>
       </div>
 
-      <div className="grid grid-cols-1 gap-10 lg:grid-cols-[2fr_3fr] lg:gap-14 lg:items-stretch">
-        {/* Left */}
-        <div className="group relative h-[320px] sm:h-[420px] lg:h-full lg:min-h-[500px] overflow-hidden rounded-2xl border bg-black shadow-lg">
+      <div className="grid grid-cols-1 gap-8 lg:grid-cols-[2fr_3fr] md:gap-14 md:items-start">
+        {/* Left - Image */}
+        <div className="group relative aspect-square w-full max-w-md mx-auto md:max-w-full overflow-hidden rounded-2xl border bg-black shadow-lg">
           {/* Blurred Background */}
           <Image
             src={featureData.image_url}
-            alt={featureData.title}
+            alt=""
             fill
+            sizes="(max-width: 768px) 90vw, (max-width: 1024px) 40vw, 500px"
             className="object-cover blur-xl scale-125 opacity-90"
             aria-hidden
           />
@@ -35,13 +36,14 @@ const PhotoDetails = async ({ featureData }) => {
             alt={featureData.title}
             fill
             priority
-            className="relative z-10 h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+            sizes="(max-width: 768px) 90vw, (max-width: 1024px) 40vw, 500px"
+            className="relative z-10 cursor-pointer object-cover lg:object-contain transition-transform duration-500 group-hover:scale-110 lg:group-hover:scale-150"
           />
         </div>
 
-        {/* Right */}
+        {/* Right - Details */}
         <div className="flex flex-col justify-center space-y-6">
-          <h1 className="text-3xl font-bold text-[#F7971D] leading-tight lg:text-4xl">
+          <h1 className="text-2xl sm:text-3xl font-bold text-[#F7971D] leading-tight md:text-4xl font-jetbrains-mono">
             {featureData.title}
           </h1>
 
@@ -67,7 +69,7 @@ const PhotoDetails = async ({ featureData }) => {
             </div>
           </div>
 
-          <div className="rounded-xl border p-5">
+          <div className="rounded-xl border p-4 sm:p-5">
             <div className="mb-4 flex flex-wrap items-center justify-between gap-4 border-b pb-4">
               <div>
                 <h2 className="text-lg md:text-2xl font-semibold text-[#F7971D]">
@@ -76,7 +78,7 @@ const PhotoDetails = async ({ featureData }) => {
               </div>
             </div>
 
-            <div className="rounded-lg font-jetbrains-mono bg-default-100 p-2 text-sm md:text-base leading-6 lg:leading-7 text-[#1E3A5F]">
+            <div className="rounded-lg font-jetbrains-mono bg-default-100 p-2 text-sm md:text-base leading-6 md:leading-7 text-[#1E3A5F]">
               {featureData.description}
             </div>
           </div>
