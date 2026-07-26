@@ -5,7 +5,7 @@ import toast from 'react-hot-toast';
 
 const BorrowButton = ({ isAvailable }) => {
   const handleClick = () => {
-    toast.error('Service will be available soon');
+    toast.error('Service will be available soon', { duration: 1500 });
   };
 
   return (
