@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { User, Tag, PackageCheck, PackageX } from 'lucide-react';
 import { Button } from '@heroui/react';
 import BackButton from './BackButton';
+import BorrowButton from './BorrowButton';
 
 const PhotoDetails = async ({ featureData }) => {
   const isAvailable = featureData.available_quantity > 0;
@@ -115,16 +116,7 @@ const PhotoDetails = async ({ featureData }) => {
                 </div>
               </div>
 
-              <Button
-                isDisabled={!isAvailable}
-                className={`px-8 py-3 font-bold transition-colors duration-150 ${
-                  isAvailable
-                    ? 'bg-[#F7971D] text-white hover:bg-[#e08812]'
-                    : 'bg-gray-300 text-gray-500'
-                }`}
-              >
-                {isAvailable ? 'Borrow This Book' : 'Not Available'}
-              </Button>
+              <BorrowButton isAvailable={isAvailable} />
             </div>
           </div>
         </div>
