@@ -6,7 +6,6 @@ const BorrowButton = ({ isAvailable }) => {
   const handleClick = () => {
     toast.error('Service will be available soon', { duration: 1500 });
   };
-
   return (
     <Button
       isDisabled={!isAvailable}
