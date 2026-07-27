@@ -8,5 +8,4 @@ const FeaturePhoto = () => {
     </div>
   );
 };
-
 export default FeaturePhoto;
