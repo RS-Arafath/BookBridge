@@ -41,7 +41,7 @@ const BookMarquee = () => {
           <div className="flex items-center gap-2 skew-x-[8deg]">
             <Bell className="h-4 w-4 text-white fill-white" />
             <span className="text-sm font-bold text-white tracking-wide">
-              UPDATES
+              UPDATE
             </span>
           </div>
         </div>
