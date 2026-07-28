@@ -8,7 +8,7 @@ import React from 'react';
 const notFound = () => {
   return (
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-br from-slate-50 via-white to-orange-50 px-6 dark:from-neutral-950 dark:via-neutral-900 dark:to-neutral-950">
-      {/* Background Glow */}
+      {/* Background Glow*/}
       <div className="absolute -top-24 left-1/2 h-80 w-80 -translate-x-1/2 rounded-full bg-[#F7971D]/20 blur-3xl" />
       <div className="absolute bottom-0 right-0 h-72 w-72 rounded-full bg-[#1E3A5F]/20 blur-3xl" />
 
