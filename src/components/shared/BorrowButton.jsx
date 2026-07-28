@@ -7,7 +7,7 @@ const BorrowButton = ({ isAvailable }) => {
     toast.error('Service will be available soon', { duration: 1500 });
   };
   return (
-    <Butto
+    <Button
       isDisabled={!isAvailable}
       onClick={handleClick}
       className={`px-8 py-3 text-sm md:text-base lg:text-lg font-bold transition-colors duration-150 ${
