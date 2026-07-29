@@ -20,7 +20,7 @@ const notFound = () => {
 
         {/* Title */}
         <h2 className="mt-6 text-3xl font-bold text-[#1E3A5F] dark:text-white md:text-4xl">
-          Oops! Page Not Found
+        
         </h2>
 
         {/* Description */}
