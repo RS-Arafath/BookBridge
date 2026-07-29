@@ -15,7 +15,7 @@ const notFound = () => {
       <div className="relative z-10 max-w-2xl text-center">
         {/* 404 */}
         <h1 className="bg-gradient-to-r from-[#F7971D] via-[#F7971D] to-[#1E3A5F] bg-clip-text text-8xl font-extrabold text-transparent md:text-9xl">
-          40
+          404
         </h1>
 
         {/* Title */}
