@@ -5,8 +5,8 @@ import { Button } from '@heroui/react';
 import BackButton from './BackButton';
 import BorrowButton from './BorrowButton';
 
-const PhotoDetails = async ({ featureData }) => {
-  const isAvailable = featureData.available_quantity > 0;
+const BookDetails = async ({ bookData }) => {
+  const isAvailable = bookData.available_quantity > 0;
 
   return (
     <section className="container mx-auto px-4 py-8 md:py-14 font-inter">
@@ -20,7 +20,7 @@ const PhotoDetails = async ({ featureData }) => {
         <div className="group relative aspect-square w-full max-w-md mx-auto md:max-w-full overflow-hidden rounded-2xl border bg-black shadow-lg">
           {/* Blurred*/}
           <Image
-            src={featureData.image_url}
+            src={bookData.image_url}
             alt=""
             fill
             sizes="(max-width: 768px) 90vw, (max-width: 1024px) 40vw, 500px"
@@ -34,8 +34,8 @@ const PhotoDetails = async ({ featureData }) => {
 
           {/* Main Image */}
           <Image
-            src={featureData.image_url}
-            alt={featureData.title}
+            src={bookData.image_url}
+            alt={bookData.title}
             fill
             priority
             sizes="(max-width: 768px) 90vw, (max-width: 1024px) 40vw, 500px"
@@ -46,7 +46,7 @@ const PhotoDetails = async ({ featureData }) => {
         {/* Right  */}
         <div className="flex flex-col justify-center space-y-6">
           <h1 className="text-2xl sm:text-3xl font-bold text-[#F7971D] leading-tight md:text-4xl font-jetbrains-mono">
-            {featureData.title}
+            {bookData.title}
           </h1>
 
           <div className="grid grid-cols-2 gap-4">
@@ -56,7 +56,7 @@ const PhotoDetails = async ({ featureData }) => {
                 <p className="text-sm font-semibold md:text-base">Author</p>
               </div>
               <p className="mt-1 font-medium text-sm md:text-base text-[#1E3A5F]">
-                {featureData.author}
+                {bookData.author}
               </p>
             </div>
 
@@ -66,7 +66,7 @@ const PhotoDetails = async ({ featureData }) => {
                 <p className="text-sm font-semibold md:text-base">Category</p>
               </div>
               <p className="mt-1 font-medium text-sm md:text-base text-[#1E3A5F]">
-                {featureData.category}
+                {bookData.category}
               </p>
             </div>
           </div>
@@ -81,7 +81,7 @@ const PhotoDetails = async ({ featureData }) => {
             </div>
 
             <div className="rounded-lg font-jetbrains-mono bg-default-100 p-2 text-sm md:text-base leading-6 md:leading-7 text-[#1E3A5F]">
-              {featureData.description}
+              {bookData.description}
             </div>
           </div>
 
@@ -111,7 +111,7 @@ const PhotoDetails = async ({ featureData }) => {
                     }`}
                   >
                     {isAvailable
-                      ? `${featureData.available_quantity} copies available`
+                      ? `${bookData.available_quantity} copies available`
                       : 'Currently unavailable'}
                   </p>
                 </div>
@@ -126,4 +126,4 @@ const PhotoDetails = async ({ featureData }) => {
   );
 };
 
-export default PhotoDetails;
+export default BookDetails;

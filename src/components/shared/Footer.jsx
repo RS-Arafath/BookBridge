@@ -38,7 +38,7 @@ const socialLinks = [
 ];
 
   return (
-    <footer className="w-full border-t mt-20 border-[#E2E8F0] bg-[#F8FAFC]">
+    <footer className="w-full border-t mt-10 border-[#E2E8F0] bg-[#F8FAFC]">
       <div className="max-w-7xl mx-auto px-6 py-10">
         <div className="flex flex-col md:flex-row md:justify-between gap-10">
           <div className="flex flex-col gap-3 md:w-1/3">

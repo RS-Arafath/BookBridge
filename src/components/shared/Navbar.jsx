@@ -78,7 +78,7 @@ const Navbar = () => {
               <div className=" flex gap-3">
                 <Button
                   variant="bordered"
-                  className="border border-[#E2E8F0] text-[#0F172A] hover:bg-[#F8FAFC] hover:border-[#fd8f00] duration-200 "
+                  className="border border-[#E2E8F0] text-[#0F172A] hover:bg-[#F8FAFC] hover:border-[#F7971D] duration-200 "
                 >
                   <Link href="/signup">Sign Up</Link>
                 </Button>
