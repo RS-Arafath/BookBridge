@@ -4,6 +4,7 @@ import Image from "next/image";
 
 import FeatureBooks from "./featureBooks/page";
 import AllBooks from "@/components/AllBooks";
+import HowItWorks from "@/components/HowItWorks";
 
 
 
@@ -14,6 +15,7 @@ export default function Home() {
       <BookMarquee></BookMarquee>
       <FeatureBooks></FeatureBooks>
       <AllBooks></AllBooks>
+      <HowItWorks></HowItWorks>
     </div>
   );
 }
