@@ -6,3 +6,11 @@
   --font-inter: var(--font-inter);
   --font-jetbrains-mono: var(--font-jetbrains-mono);
 }
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
