@@ -45,7 +45,7 @@ const HowItWorks = () => {
             How It Works
           </span>
 
-          <h2 className="mt-5 text-2xl md:text-3xl lg:text-4xl font-bold text-[#1E3A5F]">
+          <h2 className="mt-5 text-lg md:text-xl lg:text-2xl font-bold text-[#1E3A5F]">
             Borrow Books in 4 Simple Steps
           </h2>
 

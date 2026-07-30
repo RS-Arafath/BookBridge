@@ -11,16 +11,16 @@ import Image from 'next/image';
 
 const reviews = [
   {
-    name: 'Rafiq Islam',
+    name: 'Fariha Islam',
     role: 'Book Lover',
-    image: 'https://i.pravatar.cc/150?img=12',
+    image: 'https://i.ibb.co.com/zVrbjTpV/15.webp',
     review:
       'BookBridge made borrowing books incredibly easy. I found my favorite novel in just a few clicks.',
   },
   {
     name: 'Nusrat Jahan',
     role: 'Student',
-    image: 'https://i.pravatar.cc/150?img=47',
+    image: 'https://i.ibb.co.com/jv7k5RN7/18.jpg',
     review:
       'The borrowing process is simple and fast. The interface is clean and the collection is excellent.',
   },
@@ -34,7 +34,7 @@ const reviews = [
   {
     name: 'Sadia Karim',
     role: 'University Student',
-    image: 'https://i.pravatar.cc/150?img=45',
+    image: 'https://i.ibb.co.com/zHxpymh8/7.webp',
     review:
       'Finding academic books used to be a hassle, but BookBridge changed that completely. Highly recommended.',
   },
