@@ -23,7 +23,7 @@ const ProfilePage = () => {
     );
   }
 
- if (!user) {
+ /* if (!user) {
    return (
      <Card className="container border mx-auto max-w-md my-10 p-5 flex flex-col items-center gap-4">
        <p className="text-center text-slate-600 text-lg">
@@ -36,7 +36,7 @@ const ProfilePage = () => {
        </div>
      </Card>
    );
- }
+ } */
   return (
     <Card className="container border mx-auto max-w-md my-10 p-5">
       <h1 className="text-xl sm:text-2xl  font-bold text-center text-slate-700">

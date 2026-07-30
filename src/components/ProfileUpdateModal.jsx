@@ -77,27 +77,13 @@ const ProfileUpdateModal = () => {
     "
                       />
                     </TextField>
-                    {/* 
-                    <TextField
-                      className="w-full"
-                      name="image"
-                      variant="secondary"
-                    >
-                      <Label>Image url</Label>
-                      <Input placeholder="Enter your image url" />
-                    </TextField> */}
+
                     <Modal.Footer>
                       <Button
                         slot="close"
                         variant="secondary"
                         className="
-    border
-    border-[#1E3A5F]
-    text-[#1E3A5F]
-    hover:bg-[#1E3A5F]
-    hover:text-white
-    transition-colors
-    duration-200
+  border  duration-200 transition-colors   border-[#1E3A5F] hover:bg-[#054293]  text-white bg-[#1E3A5F]
   "
                       >
                         Cancel
@@ -106,7 +92,7 @@ const ProfileUpdateModal = () => {
                         type="submit"
                         className="
     bg-[#F7971D]
-    text-white
+  text-[#0F172A]
     hover:bg-[#e88915]
     transition-colors
     duration-200
