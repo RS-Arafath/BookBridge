@@ -33,8 +33,8 @@ const ProfilePage = () => {
          <Button
            as={Link}
            href="/signin"
-           color="primary"
-           className="bg-[#F7971D] transition-colors duration-150 text-[#0F172A]  hover:bg-[#f68c02]"
+           variant="bordered"
+           className="border   text-[#0F172A] hover:bg-[#F7971D] border-[#F7971D] font-semibold transition-colors duration-150 "
          >
            <Link href="/signin">LogIn</Link>
          </Button>

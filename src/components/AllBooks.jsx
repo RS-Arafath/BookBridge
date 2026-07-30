@@ -87,7 +87,7 @@ const AllBooks = async () => {
         <Button
           size="md"
           variant="bordered"
-          className="border w-50 border-[#E2E8F0] text-[#0F172A] bg-[#F7971D] font-semibold duration-200 hover:bg-[#f68c02] "
+          className="border w-50  text-[#0F172A] hover:bg-[#F7971D] border-[#F7971D] font-semibold transition-colors duration-150     "
         >
           <Link href="/allBooks">View All</Link>
         </Button>
