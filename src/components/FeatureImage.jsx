@@ -4,17 +4,14 @@ import Link from 'next/link';
 
 export const FeatureImage = async () => {
   let featureData = [];
-
   try {
     const res = await fetch(
       'https://book-borrow-assaginment-8-server.onrender.com/featuredBooks',
     );
-    if (!res.ok) {
-      throw new Error(`Failed to fetch: ${res.status}`);
-    }
+   
     featureData = await res.json();
   } catch (error) {
-    console.error('Error fetching featured books:', error);
+    //console.error('Error fetching featured books:', error);
   }
 
   return (
@@ -29,18 +26,7 @@ export const FeatureImage = async () => {
         </p>
       </div>
 
-      {/* <div className="mb-8">
-        <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#1E3A5F]">
-          Top Generated Images
-        </h2>
-        <p className="mt-2 text-gray-500">
-          Discover the most popular AI-generated artworks.
-        </p>
-      </div> */}
-
-      {featureData.length === 0 ? (
-        <p className="text-gray-500">No featured books available right now.</p>
-      ) : (
+     
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {featureData.map((item) => (
             <div
@@ -96,7 +82,6 @@ export const FeatureImage = async () => {
             </div>
           ))}
         </div>
-      )}
     </section>
   );
 };
