@@ -66,7 +66,7 @@ const SignInPage = () => {
       <div className="w-full max-w-sm md:max-w-md rounded-2xl border border-gray-200 bg-white p-6 shadow-sm sm:p-8">
         <div className="mb-6 text-center">
           <h1 className="text-2xl md:text-3xl font-bold  text-[#fd8f00] ">
-            Sign in
+            Log in
           </h1>
           <p className="mt-1 text-sm md:text-base text-gray-500">
             Enter your details to access your account
@@ -191,7 +191,7 @@ const SignInPage = () => {
               variant="tertiary"
             >
               <Icon icon="devicon:google" />
-              Sign in with Google
+              Log in with Google
             </Button>
           </div>
         </Form>

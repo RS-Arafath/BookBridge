@@ -23,20 +23,25 @@ const ProfilePage = () => {
     );
   }
 
- /* if (!user) {
+ if (!user) {
    return (
      <Card className="container border mx-auto max-w-md my-10 p-5 flex flex-col items-center gap-4">
        <p className="text-center text-slate-600 text-lg">
          You are not signed in.
        </p>
        <div>
-         <Button as={Link} href="/signin" color="primary">
-           <Link href="/signin">SignIn</Link>
+         <Button
+           as={Link}
+           href="/signin"
+           color="primary"
+           className="bg-[#F7971D] transition-colors duration-150 text-[#0F172A]  hover:bg-[#f68c02]"
+         >
+           <Link href="/signin">LogIn</Link>
          </Button>
        </div>
      </Card>
    );
- } */
+ }
   return (
     <Card className="container border mx-auto max-w-md my-10 p-5">
       <h1 className="text-xl sm:text-2xl  font-bold text-center text-slate-700">

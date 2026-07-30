@@ -139,10 +139,10 @@ const Navbar = () => {
                     variant="bordered"
                     className="border border-[#E2E8F0] text-[#0F172A] hover:bg-[#F8FAFC] hover:border-[#fd8f00] duration-200 "
                   >
-                    <Link href="/signup">Sign Up</Link>
+                    <Link href="/signup">Register</Link>
                   </Button>
-                  <Button className="bg-[#F7971D] text-white hover:bg-[#f68c02]">
-                    <Link href="/signin">Sign In</Link>
+                  <Button className="bg-[#F7971D] text-[#0F172A]  hover:bg-[#f68c02]">
+                    <Link href="/signin">Log In</Link>
                   </Button>
                 </div>
               )
