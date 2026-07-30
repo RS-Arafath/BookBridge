@@ -47,7 +47,7 @@ const BookMarquee = () => {
         </div>
 
         <div className="flex-1 overflow-hidden flex items-center">
-          <Marquee speed={80} gradient={false}>
+          <Marquee speed={60} gradient={false}>
             {announcements.map((item, i) => (
               <div key={i} className="flex items-center gap-2 mx-8">
                 <span className={`h-2 w-2 rounded-full ${item.dotColor}`} />

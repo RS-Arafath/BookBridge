@@ -16,9 +16,9 @@ const PhotoDetails = async ({ featureData }) => {
       </div>
 
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-[2fr_3fr] md:gap-14 md:items-start">
-        {/* Left - Image */}
+        {/* Left */}
         <div className="group relative aspect-square w-full max-w-md mx-auto md:max-w-full overflow-hidden rounded-2xl border bg-black shadow-lg">
-          {/* Blurred Background */}
+          {/* Blurred*/}
           <Image
             src={featureData.image_url}
             alt=""
@@ -26,6 +26,7 @@ const PhotoDetails = async ({ featureData }) => {
             sizes="(max-width: 768px) 90vw, (max-width: 1024px) 40vw, 500px"
             className="object-cover blur-xl scale-125 opacity-90"
             aria-hidden
+            priority
           />
 
           {/* Dark Overlay */}
@@ -42,7 +43,7 @@ const PhotoDetails = async ({ featureData }) => {
           />
         </div>
 
-        {/* Right - Details */}
+        {/* Right  */}
         <div className="flex flex-col justify-center space-y-6">
           <h1 className="text-2xl sm:text-3xl font-bold text-[#F7971D] leading-tight md:text-4xl font-jetbrains-mono">
             {featureData.title}
@@ -84,7 +85,7 @@ const PhotoDetails = async ({ featureData }) => {
             </div>
           </div>
 
-          {/* Availability & Borrow */}
+          {/* Borrow button*/}
           <div className="rounded-xl border border-[#1E3A5F]/10 p-4 sm:p-5">
             <div className="flex flex-wrap items-center justify-between gap-4">
               <div className="flex items-center gap-3">
