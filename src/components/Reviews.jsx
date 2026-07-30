@@ -104,9 +104,9 @@ const Reviews = () => {
             <SwiperSlide key={index}>
               {({ isActive }) => (
                 <div
-                  className={`
+                  className={`  border border-[#F7971D]/20
                     rounded-3xl
-                    border border-slate-200
+                  
                     bg-white
                     p-6 sm:p-8
 

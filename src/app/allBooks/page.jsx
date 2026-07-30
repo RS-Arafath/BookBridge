@@ -102,7 +102,9 @@ const AllBooks = async ({ searchParams }) => {
                     {' '}
                     <Button
                       variant="bordered"
-                      className="border hover:bg-[#F7971D] text-[#F7971D] hover:text-[#0F172A] w-full border-[#F7971D] transition-colors duration-150 md:text-lg font-bold"
+                      className="border hover:bg-[#F7971D] text-[#0F172A] 
+                     w-full border-[#F7971D] transition-colors duration-150 
+                     font-bold"
                     >
                       Details
                     </Button>

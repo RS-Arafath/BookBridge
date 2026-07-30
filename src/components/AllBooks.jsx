@@ -2,19 +2,19 @@ import Image from 'next/image';
 import { Button } from '@heroui/react';
 import Link from 'next/link';
 
-const AllBooks= async () => {
- let allBooks = [];
+const AllBooks = async () => {
+  let allBooks = [];
 
- try {
-   const res = await fetch(
-     'https://book-borrow-assaginment-8-server.onrender.com/books',
-   );
+  try {
+    const res = await fetch(
+      'https://book-borrow-assaginment-8-server.onrender.com/books',
+    );
 
-   const data = await res.json();
-   allBooks = data.slice(0, 8);
- } catch (error) {
-   console.error(error);
- }
+    const data = await res.json();
+    allBooks = data.slice(0, 8);
+  } catch (error) {
+    console.error(error);
+  }
   return (
     <section className="container mx-auto px-4 my-10 lg:my-15  font-inter">
       <div className="mb-10 text-center">
@@ -70,9 +70,10 @@ const AllBooks= async () => {
                 >
                   {' '}
                   <Button
-                  
                     variant="bordered"
-                    className="border hover:bg-[#F7971D] text-[#F7971D] hover:text-[#0F172A] w-full border-[#F7971D] transition-colors duration-150 md:text-lg font-bold"
+                    className="border hover:bg-[#F7971D] text-[#0F172A] 
+                     w-full border-[#F7971D] transition-colors duration-150 
+                     font-bold"
                   >
                     Details
                   </Button>
@@ -84,7 +85,7 @@ const AllBooks= async () => {
       </div>
       <div className="flex justify-center mt-10 md:mt-15">
         <Button
-          size='md'
+          size="md"
           variant="bordered"
           className="border w-50 border-[#E2E8F0] text-[#0F172A] bg-[#F7971D] font-semibold duration-200 hover:bg-[#f68c02] "
         >

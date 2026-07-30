@@ -38,7 +38,7 @@ const socialLinks = [
 ];
 
   return (
-    <footer className="w-full border-t mt-10 border-[#E2E8F0] bg-[#F8FAFC]">
+    <footer className="w-full border-t mt-10 border border-[#F7971D]  bg-[#F8FAFC]">
       <div className="max-w-7xl mx-auto px-6 py-10">
         <div className="flex flex-col md:flex-row md:justify-between gap-10">
           <div className="flex flex-col gap-3 md:w-1/3">
@@ -135,7 +135,7 @@ const socialLinks = [
               <Button
                 type="submit"
                 variant="primary"
-                className="shrink-0 bg-[#F7971D] text-white font-semibold hover:bg-[#e08002]"
+                className="shrink-0 bg-[#F7971D] text-[#0F172A] font-semibold hover:bg-[#e08002]"
               >
                 Subscribe
               </Button>
@@ -143,7 +143,7 @@ const socialLinks = [
           </div>
         </div>
 
-        <div className="mt-10 pt-6 border-t border-[#E2E8F0] text-center text-sm text-[#64748B]">
+        <div className="mt-10 pt-6 border-t border-[#F7971D] text-center text-sm text-[#64748B]">
           © {new Date().getFullYear()} BookBridge. All rights reserved.
         </div>
       </div>

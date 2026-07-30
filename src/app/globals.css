@@ -13,4 +13,15 @@
 .scrollbar-hide {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}/* Swiper pagination */
+.swiper-pagination-bullet {
+  background: #1E3A5F !important;
+  /* inactive dot */
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  background: #F7971D !important;
+  /* active dot */
+  opacity: 1;
 }
