@@ -75,7 +75,7 @@ const ProfileModal = ({user}) => {
 
             <Modal.Footer className="flex flex-row-reverse justify-center items-center">
               <Button
-                className="w-full border border-[#1E3A5F] hover:bg-[#054293] text-white bg-[#1E3A5F] "
+                className="w-full border border-[#1E3A5F] hover:bg-[#054293] text-white bg-[#1E3A5F] transition-colors duration-150 "
                 variant="bordered"
                 size="sm"
                 onClick={handleSignOut}
@@ -84,7 +84,7 @@ const ProfileModal = ({user}) => {
                 Log Out
               </Button>
               <Button
-                className="w-full border border-[#F7971D] hover:bg-[#F7971D] bg-white text-[#1E3A5F]"
+                className="w-full border border-[#F7971D] hover:bg-[#F7971D] bg-white text-[#0F172A] transition-colors duration-150"
                 slot="close"
                 size="sm"
               >

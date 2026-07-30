@@ -52,30 +52,18 @@ const Reviews = () => {
     <section className="bg-slate-50 py-12 sm:py-16 md:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-5">
         <div className="text-center max-w-2xl mx-auto">
-          <span
-            className="
-            inline-block rounded-full
-            bg-[#F7971D]/10
-            px-4 py-2
-            text-sm font-semibold
-            text-[#F7971D]
-          "
-          >
-            Testimonials
-          </span>
-
           <h2
             className="
             mt-5
-            text-2xl sm:text-3xl md:text-4xl
+            text-2xl md:text-4xl lg:text-5xl
             font-bold
-            text-[#1E3A5F]
+            text-[#F7971D]
           "
           >
             What Our Readers Say
           </h2>
 
-          <p className="mt-4 text-gray-600">
+          <p className="mt-4 text-[#1E3A5F]">
             Discover why readers love using BookBridge for borrowing their
             favorite books.
           </p>
@@ -131,23 +119,6 @@ const Reviews = () => {
                     }
                   `}
                 >
-                  <div className="flex gap-1 text-[#F7971D]">
-                    {[...Array(5)].map((_, i) => (
-                      <FaStar key={i} />
-                    ))}
-                  </div>
-
-                  <p
-                    className="
-                    mt-5
-                    italic
-                    leading-7
-                    text-gray-600
-                  "
-                  >
-                    "{review.review}"
-                  </p>
-
                   <div className="relative h-12 w-12 sm:h-14 sm:w-14 overflow-hidden rounded-full">
                     <Image
                       src={review.image}
@@ -156,7 +127,6 @@ const Reviews = () => {
                       className="object-cover"
                     />
                   </div>
-
                   <div>
                     <h4
                       className="
@@ -166,6 +136,23 @@ const Reviews = () => {
                     >
                       {review.name}
                     </h4>
+                  </div>
+
+                  <p
+                    className="
+                    mt-5
+                    font-jetbrains-mono
+                    italic
+                    leading-7
+                    text-gray-600
+                  "
+                  >
+                    "{review.review}"
+                  </p>
+                  <div className="flex gap-1 py-2 text-[#F7971D]">
+                    {[...Array(5)].map((_, i) => (
+                      <FaStar key={i} />
+                    ))}
                   </div>
                 </div>
               )}

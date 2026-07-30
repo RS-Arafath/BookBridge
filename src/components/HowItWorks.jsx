@@ -62,7 +62,7 @@ const HowItWorks = () => {
             return (
               <div
                 key={step.id}
-                className="group cursor-pointer relative rounded-3xl bg-white p-8 border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
+                className="group  cursor-pointer relative rounded-3xl bg-white p-8 border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
               >
                 <span className="absolute top-5 right-6 text-5xl font-bold text-[#F7971D]/10">
                   {step.id}
@@ -76,7 +76,7 @@ const HowItWorks = () => {
                   {step.title}
                 </h3>
 
-                <p className="mt-3 text-gray-600 leading-7">
+                <p className="mt-3 font-jetbrains-mono text-gray-600 leading-7">
                   {step.description}
                 </p>
               </div>
