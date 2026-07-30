@@ -33,6 +33,7 @@ const Navbar = () => {
             alt="Logo"
             width={56}
             height={56}
+            priority
             className="h-14 w-14 object-contain dark:brightness-200"
           />
           <h2 className="text-lg md:text-xl font-outfit font-bold">

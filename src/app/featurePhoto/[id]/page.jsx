@@ -16,7 +16,6 @@ const FeatureDetails = async ({ params }) => {
   } catch (error) {
     console.error('Error fetching book details:', error);
   }
-
   if (!featureData) {
     return (
       <div className="container mx-auto px-4 py-12 text-center text-gray-500">
