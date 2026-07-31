@@ -64,10 +64,7 @@ const AllBooks = async () => {
               <div className="border-t border-[#1E3A5F]/10 mt-3"></div>
 
               <div className="my-5">
-                <Link
-                  href={`/featurePhoto/${item.id}`}
-                  className="block w-full"
-                >
+                <Link href={`/allBooks/${item.id}`} className="block w-full">
                   {' '}
                   <Button
                     variant="bordered"
