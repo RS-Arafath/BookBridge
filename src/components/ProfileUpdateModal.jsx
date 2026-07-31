@@ -30,7 +30,7 @@ const ProfileUpdateModal = () => {
       return;
     }
 
-    toast.success('Update Profile Successfully!');
+    toast.success('Profile Update Successfully!');
 
     setTimeout(() => {
       router.push('/');
